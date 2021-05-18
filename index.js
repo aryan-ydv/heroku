@@ -5,7 +5,9 @@ const app=express();
 const port=process.env.PORT ||3000;
 
 app.get("/",(req,res)=>{
-   res.json("hello")
+ 
+    res.json("Hello uruz I am sorry!!")
+
 })
 app.listen(port,()=>{
     console.log("app is running");
