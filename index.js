@@ -15,6 +15,7 @@ app.use(express.static(staticPath));
 app.get("/",(req,res)=>{
  
     res.render("home")
+    
 
 })
 app.listen(port,()=>{
